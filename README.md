@@ -1,7 +1,6 @@
-# .NET-Pair
-A very small project, allows you to use a type in .NET similar to std::pair&lt;T, U> in C++
+# Pair.NET
+This is a very short piece of code which implements the functionalities of std::pair (C++) in C#.
+It provides a generic class called Pair with two properties to represent the actual values of the items.
+Moreover it overrides the "ToString()" method derived from "object" and a static method to create a pair.
 
-This project includes a generic type (class).
-It contains two properties called first and second, representing the values of the pairs members.
-The static method "MakePair" takes two values of any type, and returns a pair made up by these values.
-The virtual ToString() method defined by "object" has been overriden. Just a few lines of code to keep this very simple, have fun.
+The code is licensed under the GNU public license.
